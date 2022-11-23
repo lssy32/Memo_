@@ -3,7 +3,7 @@ package Presentation;
 public class MemoModifyUI implements UI{
 
     @Override
-    public void MemoUI() {
+    public void memoUI() {
 
     }
 
