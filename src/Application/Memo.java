@@ -2,13 +2,13 @@ package Application;
 
 import java.time.LocalDateTime;
 
-public class Memo {
+public class Memo implements Comparable<Memo>{
 
-    private int num;      //글번호
-    private String user_name;   //작성자 이름
-    private String user_pw;     //작성자 패스워드
-    private String memo;        //메모내용
-    private String memo_date;     //메모날짜
+    private int num;
+    private String user_name;
+    private String user_pw;
+    private String memo;
+    private String memo_date;
 
     public Memo(int write_num, String name, String pw, String write_memo, String write_date) {
         this.num = write_num;
@@ -40,5 +40,23 @@ public class Memo {
     public String getMemo_date() {
 
         return memo_date;
+    }
+
+    public void setMemo_date(String memo_date) {
+        this.memo_date = memo_date;
+    }
+
+    public void setMemo(String memo) {
+        this.memo = memo;
+    }
+
+    @Override
+    public int compareTo(Memo memo) {
+        if (memo.num < num) {
+            return 1;
+        } else if (memo.num > num) {
+            return -1;
+        }
+        return 0;
     }
 }
