@@ -1,14 +1,11 @@
-import Data.MemoAdd;
 import Presentation.MainUI;
-import Presentation.MemoAddUI;
-
-import java.util.Scanner;
+import Presentation.UI;
 
 public class Main {
-    public static void main(String[] args) {
+
+    public static void main(String[] args){
+        UI ui = new MainUI();
+        ui.memoUI();
 
     }
 }
-
-
-
