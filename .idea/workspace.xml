@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2035d95b-490b-48df-9ab9-edcf2cea7864" name="변경" comment="d">
+      <change afterPath="$PROJECT_DIR$/src/Data/MemoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Presentation/MemoDeleteUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation/MemoDeleteUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Memo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Memo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/MemoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/MemoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/MemoAdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presentation/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation/MainUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presentation/MemoAddUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presentation/MemoDeleteUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presentation/MemoModifyUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presentation/UI.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +62,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="애플리케이션.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

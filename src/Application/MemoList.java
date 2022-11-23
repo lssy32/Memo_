@@ -1,21 +1,17 @@
 package Application;
 
-import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.List;
 
 public class MemoList {
 
-    private HashMap<Integer, Memo> memoList = new HashMap<>();
+    private List<Memo> memoList = new ArrayList<Memo>();
 
-    public MemoList(){
-        super();
+    public void addMemoList(Memo memo){
+        memoList.add(memo);
     }
-
-    public void setMemoList(int write_num, Memo memo){
-        memoList.put(write_num, memo);
-    }
-
-    public HashMap<Integer, Memo> getAllMemoList(){
+    public List<Memo> getMemoList() {
         return memoList;
     }
+
 }
